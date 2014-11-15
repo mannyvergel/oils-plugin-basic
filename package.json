@@ -1,5 +1,5 @@
 {
-  "name": "oils-auth-basic",
+  "name": "oils-plugin-basic",
   "version": "1.0.0",
   "description": "Oils js basic authentication.",
   "keywords": [
