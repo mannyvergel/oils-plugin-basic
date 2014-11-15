@@ -3,6 +3,10 @@ module.exports = function basicPlugin(web, next) {
 
   web.on('initServer', function() {
   	console.log('Called on initialise server');
+
+  	web.get('/hello-plugin', function(req, res) {
+  		res.send('Hello Plugin');
+  	})
   })
 
   web.on('beforeRender', function(view, options, callback, req, res) {
