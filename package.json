@@ -1,7 +1,7 @@
 {
   "name": "oils-plugin-basic",
   "version": "1.0.0",
-  "description": "Oils js basic authentication.",
+  "description": "Oils js basic plugin example.",
   "keywords": [
   	"oils",
     "passport",
